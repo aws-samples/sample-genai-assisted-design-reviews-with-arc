@@ -6,8 +6,6 @@ The tool parses policies to extract variable values from proposal documents, the
 
 > **⚠️ DISCLAIMER**: This is a sample proof-of-concept (PoC) for demonstration purposes only. It is not suitable for production use and should not be deployed in production environments without significant additional development, testing, and security hardening.
 
-[TOC]
-
 # Requirements
 
 The code has been tested to work with:
