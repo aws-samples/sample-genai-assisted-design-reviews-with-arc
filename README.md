@@ -25,7 +25,7 @@ flowchart TD
         proposals[Proposal PDFs]
     end
     
-    subgraph ExtractSections["✂️ extract-sections"]
+    subgraph ExtractSections["✂️ 1 - extract-sections"]
         meta1[Create/Load Metadata with UUID7]
         transcribe[Transcribe PDF to Markdown]
         chapters[Extract Chapters]
@@ -34,7 +34,7 @@ flowchart TD
         reviewSections[👁 Manual Review of Sections]
     end
     
-    subgraph CreatePolicies["🧠 create-policies"]
+    subgraph CreatePolicies["🧠 0 - create-policies"]
         meta2[Load Chapters & Section]
         forEachSection[For Each Section]
         checkSection{Section Processed?}
@@ -47,7 +47,7 @@ flowchart TD
         reviewPolicies[👁️ Manual Review of Policies in Service]
     end
     
-    subgraph EvaluateProposal["🔍 evaluate-proposal"]
+    subgraph EvaluateProposal["🔍 3 - evaluate-proposal"]
         meta3[Load Metadata]
         loadPolicies[Load Policies from Bedrock Service]
         extractVars[Extract Variable Values from Proposals]
