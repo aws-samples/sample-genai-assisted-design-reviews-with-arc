@@ -1,0 +1,11 @@
+bedrock-agentcore>=1.1.1
+bedrock-agentcore-starter-toolkit>=0.2.2
+boto3>=1.42.5
+botocore>=1.42.5
+botocore[crt]>=1.42.5
+boto3-stubs-lite[essential]>=1.42.5
+markdown>=3.10
+pydantic>=2.12.5
+python-dotenv>=1.2.1
+strands-agents>=1.19.0
+strands-agents-tools>=0.2.17
