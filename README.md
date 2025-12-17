@@ -34,7 +34,7 @@ flowchart TD
         reviewSections[👁 Manual Review of Sections]
     end
     
-    subgraph CreatePolicies["🧠 0 - create-policies"]
+    subgraph CreatePolicies["🧠 2 - create-policies"]
         meta2[Load Chapters & Section]
         forEachSection[For Each Section]
         checkSection{Section Processed?}
